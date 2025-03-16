@@ -4533,11 +4533,9 @@ This helps in scaling the cluster itself based on the overall demand.
 
 Which solution will meet these requirements in the MOST operationally efficient way?
 
-B. Amazon CloudFront with Lambda@Edge functions
+A.AWS AppSync pipeline resolvers
 
-Amazon CloudFront is a content delivery network (CDN) service that can distribute content globally with low latency.
-Lambda@Edge allows you to run custom code in response to CloudFront events, such as viewer requests, origin requests, and more.
-By using Lambda@Edge functions, you can customize and augment the behavior of CloudFront.
+AppSync pipeline resolvers offer an elegant server-side solution to address the common challenge faced in web applications—aggregating data from multiple database tables. Instead of invoking multiple API calls across different data sources, which can degrade application performance and user experience, AppSync pipeline resolvers enable easy retrieval of data from multiple sources with just a single call. By leveraging Pipeline functions, these resolvers streamline the process of consolidating and presenting data to end-users.
 ---------------------------------------------------------------------------------------------------
 
 524] A company wants to analyze and troubleshoot Access Denied errors and Unauthorized errors that are related to IAM permissions. The company has AWS CloudTrail turned on.
